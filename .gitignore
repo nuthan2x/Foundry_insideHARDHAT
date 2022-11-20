@@ -1,5 +1,5 @@
-node_modules
+node_modules/
 .env
-cache
-forge-cache
-artifacts
+cache/
+forge-cache/
+artifacts/
