@@ -1,3 +1,24 @@
+
+# follow this
+
+1. npm init -y
+
+2. npm i --save -dev hardhat
+
+3. npx hardhat (choose js and add all libraries recommended by this and when npx hardhat test is ran) 
+
+4. add remappings.txt
+
+5. forge remappings > remappings.txt
+
+6. copy paste lib, foundry.toml from other foundry project to current directory
+
+7. create folder named foundry inside test folder ( test/foundry) and write foundry tests inside them
+
+8. forge test
+
+
+
 # Use Foundry in an existing Hardhat project
 Suppose that you already have a Hardhat project with some dependencies such as @OpenZeppelin/contracts in directory node_modules/.
 
@@ -34,24 +55,6 @@ Let's put the sample test file Contract.t.sol in this directory and run Foundry 
 
 forge test
 Now, Foundry test works in this existing Hardhat project. As the Hardhat project is not touched and it can work as before.
-
-# finnaly
-
-1. npm init -y
-
-2. npm i --save -dev hardhat
-
-3. npx hardhat (choose js and add all libraries recommended by this and when npx hardhat test is ran) 
-
-4. add remappings.txt
-
-5. forge remappings > remappings.txt
-
-6. copy paste lib, foundry.toml from other foundry project to current directory
-
-7. create folder named foundry inside test folder ( test/foundry) and write foundry tests inside them
-
-8. forge test
 
 
 
