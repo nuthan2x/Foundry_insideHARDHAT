@@ -13,7 +13,7 @@
 
 4. add remappings.txt
 
-5. forge remappings > remappings.txt
+5. forge remappings > remappings.txt  , run whenever a new file/ package is added/modified
 
 6. copy paste lib, foundry.toml from other foundry project to current directory
 
